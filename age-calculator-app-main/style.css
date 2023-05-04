@@ -52,6 +52,27 @@ label {
     font-weight: 400;
 }
 
+h6 {
+    margin: 10px 0px;
+    height: 25px;
+    width: 100%;
+}
+
+.errorClass {
+    color: red
+}
+
+.errorClass > input {
+    border: 1px solid red;
+}
+
+.errorClass > h6{
+    margin: 10px 0px;
+    font-style: italic;
+    font-size: 13px;
+    font-weight: 100;
+}
+
 input {
     display: block;
     height: 50px;
